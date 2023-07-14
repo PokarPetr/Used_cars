@@ -1,5 +1,3 @@
-import json
-
 CHARTS = {
     'fuel': {
         'title': {'label': 'Distribution of the number of cars by type of fuel', 'fontsize': 22}
@@ -143,7 +141,4 @@ CHARTS = {
 }
 
 if __name__ == '__main__':
-    j = json.dumps(CHARTS, indent=4)
-    jj = json.loads(j)
-    print(jj)
-    # {'label': '', 'fontsize': 22}
+    pass

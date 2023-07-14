@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-import json
+
 
 def chart(js):
     plt.style.use('default')
